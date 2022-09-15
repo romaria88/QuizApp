@@ -57,7 +57,3 @@ const quizData = [
     },
 ];
 
-const load = () => {
-    main_var.innerHTML[1].main_var;
-}
-// window.addEventListener('load', )
