@@ -8,25 +8,42 @@
   </head>
   <body>
 
-    <div class="wrapper">
-      <div class="main_question"></div>
-      <div id ="question" class="main_var">
-        <div id ="a" class="var1"></div>
-        <div id ="b" class="var2"></div>
-        <div id ="c" class="var3"></div>
-        <div id ="d" class="var4"></div>
-      </div>  
-      <div class="button">
-        <button class="btn">Submit</button>
+    <div class="quiz">
+      <div class="quiz-header">
+        <p class="title"></p>
+      </div>
+
+      <ul class="quiz-list">
+        <li>
+          <input type="radio" />
+          <span class="a_answer">Ответ</span>
+        </li>
+        <li>
+          <input type="radio" />
+          <span class="b_answer">Ответ</span>
+        </li>
+        <li>
+          <input type="radio" />
+          <span class="c_answer">Ответ</span>
+        </li>
+        <li>
+          <input type="radio" />
+          <span class="d_answer">Ответ</span>
+        </li>
+      </ul>
+
+      <button class="quiz-submit">Submit</button>
+
+      <div class="quiz-final">
+        <div class="res"></div>
+        <button class='quiz-reload'>Reload</button>
       </div>
       
-    </div>
-    <div class="popup">
-      <div class="window">
-        <div class="correct_answer"></div>
-        <button class="btn_correct">Reload</button>
-      </div>
-    </div>
+
+      
+
+
+
   <script src="script.js"></script>
   </body>
 </html>
